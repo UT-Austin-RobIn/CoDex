@@ -1,0 +1,724 @@
+{
+  "dist": -0.075,
+  "yaw": 52.0,
+  "pitch": 0.0,
+  "roll": 0.0,
+  "generation": 3,
+  "id": 29,
+  "score": 0.95,
+  "description": "Upright and closely centered over the beans; the outlet has plausible clearance and points down into the bowl.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      0.3331575172061035,
+      0.9390167994136129,
+      0.0851685181260109,
+      -0.09595872907776526
+    ],
+    [
+      0.3309276321312794,
+      -0.031870552538236285,
+      -0.9431178569793701,
+      -0.07239967262869802
+    ],
+    [
+      -0.8828889793961503,
+      0.342391349944829,
+      -0.32136449217796326,
+      0.6420914983799668
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      -0.9672494150697519,
+      -0.25352786548814243,
+      0.01233514739411537,
+      0.6196378501277295
+    ],
+    [
+      0.2525933018398092,
+      -0.9661953064789796,
+      -0.0515972148373931,
+      0.11790441323354395
+    ],
+    [
+      0.02499915009107495,
+      -0.0467911612922049,
+      0.9985916990274049,
+      0.2269933266888659
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    -0.001192071266880851,
+    -0.002579807612801207,
+    -0.09844585417397998
+  ],
+  "target_world": [
+    0.6193054533046507,
+    0.12904522502379145,
+    0.05388264790560515
+  ],
+  "target_camera": [
+    -0.11355048564414558,
+    0.09086794023420401,
+    0.698
+  ],
+  "relative_transform": [
+    [
+      0.6156614753256583,
+      -0.7880107536067221,
+      6.938893903907228e-18,
+      0.24991831665948427
+    ],
+    [
+      0.788010753606722,
+      0.6156614753256582,
+      0.0,
+      -0.17312608825160847
+    ],
+    [
+      1.734723475976807e-17,
+      -1.3877787807814457e-17,
+      1.0,
+      0.10711761751264662
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.620282729391885,
+    0.13079464883549807,
+    0.053921337652932555
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 4,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.55,
+          "description": "The outlet points toward the beans with clear space below it, but it is about 17 cm from the target and substantially tilted.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.17315259675648204,
+            "yaw": 1.5561122681229733,
+            "pitch": 21.74650987221466,
+            "roll": 13.556780658410453
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.18,
+          "description": "The outlet is near the beans, but the grinder lies almost horizontally across the bowl rim, making grinding onto them implausible.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.031680642629423106,
+            "yaw": 167.3965287055044,
+            "pitch": -85.6488575292386,
+            "roll": -14.695496176755514
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.05,
+          "description": "The grinder lies across the bowl rather than above the beans. The target is slightly behind its outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.009478260983884823,
+            "yaw": -109.41392011485239,
+            "pitch": -64.01567734716825,
+            "roll": 12.696508569925896
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.85,
+          "description": "The outlet points down toward the beans from a plausible distance, with visible clearance from the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.08180477366882384,
+            "yaw": 70.40103274084578,
+            "pitch": -43.35424850274095,
+            "roll": 15.881051272782202
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.12,
+          "description": "The grinder is nearly horizontal and its outlet is well to the side, despite its axis passing toward the target.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.09783126564823488,
+            "yaw": 130.65869768982714,
+            "pitch": -83.52904856927164,
+            "roll": -3.848971474907586
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.0,
+          "description": "Most of the grinder is buried below the table or bowl. The target is behind its outward axis.",
+          "table_penetration": 0.08354741239402959,
+          "params": {
+            "dist": 0.16957049459801804,
+            "yaw": 116.98150344152663,
+            "pitch": 42.12322086832134,
+            "roll": -5.712634197043265
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.04,
+          "description": "The grinder crosses the bowl at bean level instead of dispensing from above; the target is behind its outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.050199121388474766,
+            "yaw": 164.8765604302538,
+            "pitch": 71.20139417560839,
+            "roll": 6.3523847953536645
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.01,
+          "description": "The grinder penetrates the table and bowl, and the target is behind its outward axis.",
+          "table_penetration": 0.04043581276408306,
+          "params": {
+            "dist": 0.0925965679088786,
+            "yaw": -157.29329464745635,
+            "pitch": 10.408717243866022,
+            "roll": 3.1045625491650277
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 16,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.76,
+          "description": "The grinding end is aimed at the beans with clear bowl clearance, though it is about 13 cm above the target.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.13161061864365486,
+            "yaw": 173.24838057939058,
+            "pitch": 30.876434723543724,
+            "roll": -2.3834356832144437
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.12,
+          "description": "The grinder is pushed into the bowl and beans. The target is slightly behind its supplied outward axis, rather than in front of the grinding end.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.012187047902868148,
+            "yaw": 94.74247459607085,
+            "pitch": -35.60998764141484,
+            "roll": 11.36513954262471
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.34,
+          "description": "The supplied axis reaches the beans, but the grinder is nearly horizontal and low beside the bowl, making salt delivery awkward.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.09954083142778525,
+            "yaw": -2.676952623966571,
+            "pitch": -79.96789299480896,
+            "roll": 10.581342106504941
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.02,
+          "description": "The grinder overlaps the bowl area and has measured table penetration. The target is well behind its supplied outward axis.",
+          "table_penetration": 0.0579398452297641,
+          "params": {
+            "dist": 0.11639471273432739,
+            "yaw": -1.0400742182274598,
+            "pitch": 31.84919426161038,
+            "roll": -10.346211692197507
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.78,
+          "description": "The grinding end points toward the beans and clears the bowl, but the grinder is noticeably tilted and about 9 cm away.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.09,
+            "yaw": 68.0,
+            "pitch": -35.0,
+            "roll": 12.0
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.74,
+          "description": "The grinder is aimed into the bowl with clearance, though its tilted grinding end remains about 10 cm from the beans.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.105,
+            "yaw": 75.0,
+            "pitch": -30.0,
+            "roll": 8.0
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.71,
+          "description": "The grinding end is aligned with the beans and unobstructed, but it is tilted and more than 11 cm away.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.115,
+            "yaw": 58.0,
+            "pitch": -40.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.85,
+          "description": "The grinding end is aimed at the beans from a relatively close, unobstructed position. It is somewhat tilted but plausibly usable.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 82.0,
+            "pitch": -38.0,
+            "roll": 15.0
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.82,
+          "description": "The grinding end points into the beans with bowl clearance and a workable gap, despite the pronounced tilt.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.08180477366882384,
+            "yaw": 70.40103274084578,
+            "pitch": -43.35424850274095,
+            "roll": 15.881051272782202
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 17,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.95,
+          "description": "Upright above the beans, with its outlet aimed down into the bowl and clear of the rim.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.0763270453573822,
+            "yaw": 52.72122167018682,
+            "pitch": 3.2826831103931937,
+            "roll": -0.02786614456602976
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.06,
+          "description": "The outlet is pressed into the bowl area, and the supplied axis places the target slightly behind it rather than in front.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.009140945458797345,
+            "yaw": -19.381074238462816,
+            "pitch": -28.156127797513534,
+            "roll": -8.064927470947186
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.01,
+          "description": "The grinder lies across the bowl and penetrates the table; the target is far behind its supplied outward axis.",
+          "table_penetration": 0.027588275046100078,
+          "params": {
+            "dist": 0.1917286053195716,
+            "yaw": 14.025398024908696,
+            "pitch": 74.40016147392538,
+            "roll": -15.827513562230354
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.12,
+          "description": "The outlet points toward the beans, but the grinder is nearly horizontal and offset outside the bowl, so salt would likely fall onto the plate.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.13402051571353463,
+            "yaw": -96.51368963802487,
+            "pitch": -84.31343440780152,
+            "roll": -1.1746545665663746
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.78,
+          "description": "Angled down toward the beans with useful clearance, though the outlet is near the bowl's edge rather than directly overhead.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.065,
+            "yaw": 82.0,
+            "pitch": -38.0,
+            "roll": 15.0
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.73,
+          "description": "Aimed down toward the beans with clearance, but its offset outlet and tilt make the drop less reliable than an upright placement.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 88.0,
+            "pitch": -30.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.75,
+          "description": "Aimed toward the beans without visible collision, although the tilted outlet sits close to the bowl's edge.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07,
+            "yaw": 78.0,
+            "pitch": -33.0,
+            "roll": 12.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.64,
+          "description": "Aimed toward the beans, but the outlet is relatively high and offset, increasing the chance of salt missing the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.085,
+            "yaw": 94.0,
+            "pitch": -25.0,
+            "roll": 7.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.76,
+          "description": "The tilted outlet points toward the beans and has clearance, but it is offset toward the rim.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 82.0,
+            "pitch": -38.0,
+            "roll": 15.0
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 29,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.04,
+          "description": "The grinder lies sideways across the bowl, overlapping the beans. Its outward axis points away from the target, consistent with the negative forward distance.",
+          "table_penetration": 0.004575149693673591,
+          "params": {
+            "dist": 0.18210555985872862,
+            "yaw": 80.85270694544829,
+            "pitch": -79.91597025086463,
+            "roll": 10.697490591735964
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.13,
+          "description": "The grinder is steeply tilted with its outlet pressed into the beans or bowl. The target is slightly behind its outward axis rather than in front of it.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.013661451912076211,
+            "yaw": 93.77547941693456,
+            "pitch": -51.02877003091893,
+            "roll": 1.757107500700812
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.78,
+          "description": "The outlet is above the beans and directed toward them, with plausible clearance. The grinder is noticeably tilted but could still dispense salt into the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.05308953646645906,
+            "yaw": 165.48635138190036,
+            "pitch": 9.187802269634176,
+            "roll": 19.153652158869498
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.01,
+          "description": "The grinder is mostly buried in the bowl or table, with substantial measured table penetration. Its outward axis also points away from the target.",
+          "table_penetration": 0.06190411366607819,
+          "params": {
+            "dist": 0.17790820262323126,
+            "yaw": 42.560112661874115,
+            "pitch": 57.565160057381576,
+            "roll": -15.137030267220597
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.92,
+          "description": "The grinder is upright, centered over the beans, and directed downward with clear space beneath its outlet.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 52.0,
+            "pitch": 0.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.89,
+          "description": "The grinder is upright and aimed at the beans with good clearance, though its outlet is slightly farther above them.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.085,
+            "yaw": 52.7,
+            "pitch": 3.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.92,
+          "description": "The grinder is nearly vertical over the beans, aimed downward with suitable clearance and no visible collision.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07,
+            "yaw": 54.0,
+            "pitch": 2.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.9,
+          "description": "The grinder is upright and well aligned over the beans, with a slightly generous but workable outlet-to-beans gap.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.08,
+            "yaw": 50.0,
+            "pitch": 4.0,
+            "roll": -1.0
+          }
+        },
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.91,
+          "description": "The grinder is vertical over the beans, pointing downward with plausible clearance and no visible obstruction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.0763270453573822,
+            "yaw": 52.72122167018682,
+            "pitch": 3.2826831103931937,
+            "roll": -0.02786614456602976
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 29,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The grinder lies across the bowl, with its outlet pressed into the beans and some table penetration. The supplied axis points away from the target, which is behind the functional point.",
+          "table_penetration": 0.031030131814773612,
+          "params": {
+            "dist": 0.09106276048793233,
+            "yaw": 70.13765044307053,
+            "pitch": 39.9382503391455,
+            "roll": -3.3398400605165754
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.04,
+          "description": "Although upright over the bowl, the grinder is sunk into the beans and penetrates the table. The target is behind its downward functional axis.",
+          "table_penetration": 0.021238620444781198,
+          "params": {
+            "dist": 0.07237561132555415,
+            "yaw": 36.61811950730606,
+            "pitch": 20.82051924355264,
+            "roll": 2.794735591910282
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The grinder lies across the bowl and rim rather than dispensing from above. Its axis points away from the beans, placing the target behind the functional point.",
+          "table_penetration": 0.00929048604606969,
+          "params": {
+            "dist": 0.133930788288044,
+            "yaw": -79.98438967323777,
+            "pitch": 74.38907958498052,
+            "roll": -9.893520787445315
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.3,
+          "description": "The outlet points toward the beans without measured table penetration, but it is far to the side and angled shallowly; salt would likely fall short of the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.12719338494543334,
+            "yaw": -170.78482608089743,
+            "pitch": 85.80635443702818,
+            "roll": 5.11589482853584
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.95,
+          "description": "Upright with its dispensing end centered over the beans, a plausible gap, and clear table clearance. Its downward dispensing line reaches the target.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.072,
+            "yaw": 53.0,
+            "pitch": 1.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.95,
+          "description": "Upright and well aligned above the beans, with room to dispense downward and no measured table penetration.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.068,
+            "yaw": 52.0,
+            "pitch": 1.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.95,
+          "description": "The outlet is positioned above the beans at a useful height, with a downward path to the target and no apparent collision.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 54.0,
+            "pitch": 0.5,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.95,
+          "description": "The grinder is upright over the beans with suitable clearance and a downward dispensing path into the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07,
+            "yaw": 53.0,
+            "pitch": 2.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.95,
+          "description": "Upright and closely centered over the beans; the outlet has plausible clearance and points down into the bowl.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.075,
+            "yaw": 52.0,
+            "pitch": 0.0,
+            "roll": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

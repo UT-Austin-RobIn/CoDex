@@ -1,0 +1,58 @@
+Now, using the annotated coordinate frame centered at each functional contact point, describe the *direction of movement* in the local frame. X, Y, Z axis are colored in red, green, and blue respectively. For example, a button should be pressed downwards, a trigger should be pulled horizontally.
+
+For each functional contact point, provide the following:
+
+- *Location*: Use the percentile coordinates [X%, Y%] of the functional contact point.
+- *Direction*: The direction should be expressed as a 3D vector (dx, dy, dz) relative to the annotated frame. The direction represents how the part of the object moves as a result of the interaction at the functional contact point.
+- *Action Description*: Provide a concise language description of the action that occurs at this location, explaining what happens when this contact point is interacted with.
+
+*Output Format*: Provide the result in the following template:
+
+```json
+{
+  "contact_points": [
+    {
+      "location": [X%, Y%],
+      "direction": {"dx": X_direction, "dy": Y_direction, "dz": Z_direction}
+      "action": "Description of the action"
+    }
+  ]
+}
+```
+Where X% and Y% are the percentile coordinates of the functional contact point, and dx, dy, and dz are the components of the movement direction relative to the annotated local coordinate frame.
+
+Example Output:
+
+Task Description: "Using a spray bottle."
+```json
+{
+  "contact_points": [
+    {
+      "location": [45.0, 60.0],
+      "direction": {"dx": 0, "dy": 0, "dz": -1},
+      "action": "Pressing the button."
+    }
+  ]
+}
+```
+
+Task Description: "Using scissors to cut paper." 
+```json
+{
+  "contact_points": [
+    {
+      "location": [30.0, 70.0],
+      "direction": {"dx": 0.4, "dy": 0.6, "dz": 0},
+      "action": "Squeezing the left handle."
+    },
+    {
+      "location": [70.0, 70.0],
+      "direction": {"dx": -0.4, "dy": -0.6, "dz": 0},
+      "action": "Squeezing the right handle."
+    }
+  ]
+}
+```
+
+*Note*:
+Examine the value along each axis carefully so that the movement under the annotated frame is reasonable. First consider the semantic direction of the action (e.g. pulling trigger towards the bottle body, pressing the nozzle downwards), then consider how this direction is expressed in the *local* annotated frame.

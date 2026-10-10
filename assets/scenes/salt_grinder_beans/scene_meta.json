@@ -1,0 +1,5 @@
+{
+    "functional_object": "salt grinder",
+    "target_object": "beans",
+    "task": "grind salt on the beans"
+}

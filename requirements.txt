@@ -1,0 +1,52 @@
+# Core numerics / geometry
+numpy<2
+scipy
+opencv-python
+pillow
+matplotlib
+# 0.19 pulls in dash (web visualizer), which conflicts with the LangSAM stack;
+# 0.18.0 is the version the grasp solver was validated on.
+open3d==0.18.0
+# Open3D pulls Dash for its optional web visualizer. Dash 4 requires
+# pydantic>=2.10, while the pinned LangSAM release requires pydantic==2.9.2.
+dash<4
+trimesh
+rtree==1.4.1
+coacd
+pyyaml
+tqdm
+
+# Grasp synthesis (batched GPU solver)
+# torch is installed explicitly by install.sh (pinned CUDA build) before this
+# file; the bare requirement here is satisfied by that install and only
+# matters for standalone `pip install -r requirements.txt` usage.
+torch
+torchvision
+pytorch-kinematics
+
+# VLM / API clients
+openai>=1.66.0
+tripo3d
+# Keep the project Transformers version on this line for the existing
+# segmentation stack. MolmoPoint uses a separate environment with 4.57.1.
+transformers>=4.44,<4.46
+accelerate<1
+einops
+
+# UI (gradio pinned to the matching fastapi/starlette generation)
+gradio==5.12.0
+plotly>=5.20
+websockets>=13,<17
+fastapi==0.115.11
+starlette==0.46.0
+uvicorn==0.34.0
+
+# RL training (ManiSkill3 + SB3)
+gymnasium==0.29.1
+stable-baselines3
+# Simulation physics (and so every reported success rate) depends on this version.
+mani-skill==3.0.1
+sapien==3.0.3
+tensorboard
+wandb==0.16.5
+protobuf==4.25.3

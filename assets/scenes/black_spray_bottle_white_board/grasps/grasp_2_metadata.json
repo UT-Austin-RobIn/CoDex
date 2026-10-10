@@ -1,0 +1,17 @@
+{
+  "method": "primitive",
+  "actuation_finger_indices": [
+    0
+  ],
+  "energy": 346.87396240234375,
+  "sim": {
+    "success": 0.2619047619047619,
+    "lift_success": 0.6428571428571429,
+    "raw_lift": 0.9523809523809523,
+    "stable_success": 0.9523809523809523,
+    "upright_success": 0.9761904761904762,
+    "act_success": 0.2619047619047619,
+    "act_dist": 0.036673663184046745,
+    "n": 42
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "dist": -0.16,
+  "yaw": 148.0,
+  "pitch": -10.0,
+  "roll": -5.0,
+  "generation": 4,
+  "id": 40,
+  "score": 0.9,
+  "description": "The upright bottle is clear of the board, and its nozzle aims at the target from a plausible spraying distance.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      0.7787701289674765,
+      0.6273050139636819,
+      -0.0023526426396560385,
+      -0.0178912211488359
+    ],
+    [
+      0.1175635350065096,
+      -0.1496315326133687,
+      -0.9817276884514246,
+      0.046614117168757935
+    ],
+    [
+      -0.6161947952675276,
+      0.7642636069382082,
+      -0.1902767741908459,
+      0.6457691619972582
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      -0.9375416953223732,
+      0.31057525620946475,
+      0.1567119386264771,
+      0.5469819729025344
+    ],
+    [
+      -0.32112390055416545,
+      -0.945891450535125,
+      -0.04655945248428105,
+      0.08892684411287738
+    ],
+    [
+      0.13377236854647964,
+      -0.09397484804288023,
+      0.9865461903689018,
+      0.13864055948390341
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    -0.039709396997573816,
+    -0.004910228519383348,
+    0.08448926098537077
+  ],
+  "target_world": [
+    0.74593333993713,
+    0.15376907409843665,
+    0.19573895695771498
+  ],
+  "target_camera": [
+    -0.17669791801255727,
+    -0.05907514738359523,
+    0.749
+  ],
+  "relative_transform": [
+    [
+      -0.8351643400220907,
+      -0.5407374909983296,
+      0.1005161230066963,
+      0.2447419092616409
+    ],
+    [
+      0.521868599887385,
+      -0.8368009879804083,
+      -0.1655816142166537,
+      0.18273568243924632
+    ],
+    [
+      0.17364817766693033,
+      -0.08583165117743129,
+      0.9810602621904068,
+      0.03544327626148011
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.7323337590127347,
+    0.19011704537045812,
+    0.19487625785238818
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 5,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.05,
+          "description": "The bottle is clear of the board, but the target lies behind the supplied spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.17164797548604066,
+            "yaw": -102.23235930392809,
+            "pitch": 73.26492156817463,
+            "roll": 14.755768904800114
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.02,
+          "description": "The bottle appears embedded in the board, with the target behind the spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.12850081781222683,
+            "yaw": 48.408853192616704,
+            "pitch": -10.941237689003458,
+            "roll": -0.4791326269534899
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.06,
+          "description": "The target is in front of the supplied spray direction, but most of the bottle is obscured by the board, suggesting substantial overlap.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07522386388879815,
+            "yaw": -21.232244920878315,
+            "pitch": -4.368321879392781,
+            "roll": 11.45181065585188
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.12,
+          "description": "The nozzle is nearly at the target, but most of the bottle is hidden within or behind the board, leaving implausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.008268238305152276,
+            "yaw": 150.28243569846518,
+            "pitch": 43.717306588462776,
+            "roll": 5.462164225490618
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.78,
+          "description": "The bottle is clear of the board and aimed toward the target from a plausible spraying distance, though its angle is somewhat oblique.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11289436766500752,
+            "yaw": 147.91395629385727,
+            "pitch": -72.18406381731677,
+            "roll": -10.059854234659294
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.03,
+          "description": "Most of the bottle is obscured by the board, and the target is slightly behind the supplied spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.028469865479444495,
+            "yaw": -163.46224670527738,
+            "pitch": -2.883473351366902,
+            "roll": 17.7116748481265
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.55,
+          "description": "The target is a short distance in front of the nozzle and the bottle is mostly clear, but the spray approaches the board at a shallow angle near its edge.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.03317029299993682,
+            "yaw": 156.42732719845702,
+            "pitch": -34.598452187008874,
+            "roll": 14.926531522052578
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.04,
+          "description": "The bottle is visible above the board, but the target is far behind the supplied spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.16907461499961624,
+            "yaw": 94.0921312010924,
+            "pitch": 78.66331760218316,
+            "roll": 17.244595270649015
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 5,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.02,
+          "description": "The bottle is almost entirely hidden by the board, indicating substantial overlap despite the axis reaching the target.",
+          "table_penetration": 0.0009518277995286123,
+          "params": {
+            "dist": -0.15491772022053427,
+            "yaw": -66.26277496211368,
+            "pitch": 7.430002352181305,
+            "roll": 4.31335511881429
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.03,
+          "description": "The target is behind the nozzle along the supplied outward axis, so the bottle points away from the area to clean.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.09251920802519364,
+            "yaw": 150.4524316067354,
+            "pitch": -80.95882934705891,
+            "roll": 12.703813549321538
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.57,
+          "description": "The nozzle is aimed toward the board, but it sits close to the upper frame and the spray path approaches the surface at an oblique angle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1195980433334734,
+            "yaw": 114.35731638580182,
+            "pitch": -88.72714864666669,
+            "roll": 3.3001735349464383
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.07,
+          "description": "Most of the spray head is hidden by the board near its lower edge; the short axis distance does not establish a clear spray path.",
+          "table_penetration": 0.00036758452889421034,
+          "params": {
+            "dist": -0.04529354263593394,
+            "yaw": 1.0358107311676292,
+            "pitch": 58.36535156226344,
+            "roll": 9.96013824459769
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.71,
+          "description": "The nozzle points toward the target from in front of the board, though it is close to the upper edge and sprays somewhat obliquely.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.13,
+            "yaw": 148.0,
+            "pitch": -82.0,
+            "roll": -10.0
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.62,
+          "description": "The nozzle is aimed at the target with apparent clearance, but it is high near the board's top edge and relatively far away.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": 148.0,
+            "pitch": -75.0,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.79,
+          "description": "The nozzle is aimed at the target from a plausible spraying distance, with no clear collision, though the approach is oblique.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.12,
+            "yaw": 138.0,
+            "pitch": -80.0,
+            "roll": -10.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.68,
+          "description": "The spray axis reaches the target and the bottle appears clear, but the nozzle is near the top frame and the spray angle is oblique.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14,
+            "yaw": 156.0,
+            "pitch": -85.0,
+            "roll": -5.0
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.82,
+          "description": "The nozzle is directed at the board from a plausible spraying distance, with comparatively good visible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11289436766500752,
+            "yaw": 147.91395629385727,
+            "pitch": -72.18406381731677,
+            "roll": -10.059854234659294
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 23,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.02,
+          "description": "Only the spray head is visible at the board; the bottle appears occluded by or embedded in it. The target is slightly behind the supplied spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.008245298277685886,
+            "yaw": 57.88644218494491,
+            "pitch": -5.637658353159651,
+            "roll": -14.005424737831307
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.04,
+          "description": "The bottle is visible, but the target is well behind the supplied spray direction, so spraying would aim away from the marked area.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.15624063799232996,
+            "yaw": -83.37295691372185,
+            "pitch": 45.07640511164155,
+            "roll": 15.572183107752736
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.1,
+          "description": "The nozzle is near the marked area, but the target is behind its supplied spray direction. The bottle also sits very close to the board.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.061818241913975946,
+            "yaw": 39.227769559006674,
+            "pitch": 24.363437174827993,
+            "roll": 6.482540231410923
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.01,
+          "description": "The bottle is not visibly clear of the scene, and measured table penetration is substantial despite the target being in front along the supplied axis.",
+          "table_penetration": 0.05419336105439941,
+          "params": {
+            "dist": -0.1063855216314456,
+            "yaw": 7.239265443160349,
+            "pitch": 53.37585976959372,
+            "roll": -8.014790761309389
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.48,
+          "description": "The supplied spray direction reaches the board from about 11.5 cm away, with apparent clearance. The bottle is inverted and the spray approaches at a shallow angle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.115,
+            "yaw": 141.0,
+            "pitch": -75.0,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.47,
+          "description": "The target lies ahead of the nozzle at a plausible spraying distance, but the inverted bottle and shallow approach to the board make this only partly suitable.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.12,
+            "yaw": 135.0,
+            "pitch": -72.0,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.5,
+          "description": "The nozzle has apparent clearance and is directed toward the target from about 11 cm away. Its shallow angle and inverted bottle remain significant drawbacks.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11,
+            "yaw": 143.0,
+            "pitch": -69.0,
+            "roll": -10.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.43,
+          "description": "The supplied axis reaches the target, but the nozzle is farther away and near the board's upper edge. The bottle is inverted and aimed shallowly along the surface.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.13,
+            "yaw": 138.0,
+            "pitch": -77.0,
+            "roll": -7.0
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.49,
+          "description": "The target is ahead along the supplied spray axis at a plausible distance, and the bottle appears clear. It is inverted, with a shallow approach to the board.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11289436766500752,
+            "yaw": 147.91395629385727,
+            "pitch": -72.18406381731677,
+            "roll": -10.059854234659294
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 32,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.03,
+          "description": "The bottle is mostly hidden by the whiteboard, suggesting substantial overlap despite the target lying ahead on the supplied axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07053231279033434,
+            "yaw": 79.94534617730807,
+            "pitch": 86.06275408353147,
+            "roll": -16.050254411333427
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.01,
+          "description": "The bottle appears embedded in or behind the whiteboard, and the target is slightly behind the supplied spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.016290818001954893,
+            "yaw": -122.21196593816038,
+            "pitch": -21.488430131024202,
+            "roll": 10.378877766708015
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.02,
+          "description": "The bottle is largely obscured by the whiteboard, with visible overlap and slight measured table penetration.",
+          "table_penetration": 0.005720338096462593,
+          "params": {
+            "dist": -0.04116617371857778,
+            "yaw": 74.07114793658118,
+            "pitch": 38.268145814678235,
+            "roll": -19.803113293718578
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.06,
+          "description": "The bottle is visible beside the board, but its supplied spray direction points away from the target.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.15958714833902704,
+            "yaw": 34.27852680860323,
+            "pitch": 5.1755265094790985,
+            "roll": 4.937569580980259
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.82,
+          "description": "The nozzle is aimed at the board from a plausible spraying distance, with the bottle largely clear of the board.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.12,
+            "yaw": 140.0,
+            "pitch": -35.0,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.9,
+          "description": "The upright bottle has good clearance and directs its spray toward the target from a practical distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14,
+            "yaw": 125.0,
+            "pitch": -25.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.86,
+          "description": "The bottle is clear of the board and aimed at the target, though its tilt is less natural for spraying.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.13,
+            "yaw": 155.0,
+            "pitch": -30.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.93,
+          "description": "The upright bottle is well clear of the board and aimed at the target from a suitable spray distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": 140.0,
+            "pitch": -15.0,
+            "roll": -5.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.4,
+          "description": "The supplied axis reaches the target, but the bottle is nearly inverted, making effective spraying less plausible.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11,
+            "yaw": 143.0,
+            "pitch": -69.0,
+            "roll": -10.0
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 40,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The bottle is almost entirely hidden within or behind the board. The short positive axis distance does not establish usable nozzle clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.018389018810393537,
+            "yaw": -142.40108061202983,
+            "pitch": 68.05333178699473,
+            "roll": 0.7627905175350236
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The bottle is not visibly clear of the board, despite the short positive axis distance. Spraying from this placement is implausible.",
+          "table_penetration": 0.00010608523023314387,
+          "params": {
+            "dist": -0.02723207868548444,
+            "yaw": -53.91403337265193,
+            "pitch": 35.63042623528247,
+            "roll": 14.904533763459327
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.01,
+          "description": "Only a small part of the bottle is visible near the board; it has measured table penetration, and the target lies behind its outward axis.",
+          "table_penetration": 0.019214390100849965,
+          "params": {
+            "dist": 0.16068007394098804,
+            "yaw": -102.20617925791258,
+            "pitch": -27.560224074456187,
+            "roll": 8.930403652192851
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.06,
+          "description": "The bottle overlaps the board area, and the target lies behind its outward axis rather than in the spray direction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.08968665746025062,
+            "yaw": -40.62453147352727,
+            "pitch": -1.6970524120368538,
+            "roll": 9.641150868505754
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.89,
+          "description": "The upright bottle has clearance from the board, with its nozzle directed toward the target from a plausible spraying distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.155,
+            "yaw": 140.0,
+            "pitch": -12.0,
+            "roll": -2.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.87,
+          "description": "The nozzle points toward the board with clearance and a plausible spraying distance, though the bottle is slightly tilted.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.17,
+            "yaw": 145.0,
+            "pitch": -15.0,
+            "roll": -3.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.86,
+          "description": "The nozzle is aimed toward the target with useful clearance; the slight bottle tilt makes it somewhat less ideal.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": 135.0,
+            "pitch": -18.0,
+            "roll": 0.0
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.9,
+          "description": "The upright bottle is clear of the board, and its nozzle aims at the target from a plausible spraying distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16,
+            "yaw": 148.0,
+            "pitch": -10.0,
+            "roll": -5.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.89,
+          "description": "The upright bottle has good clearance and aims its nozzle toward the target from a plausible spraying distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": 140.0,
+            "pitch": -15.0,
+            "roll": -5.0
+          }
+        }
+      ]
+    }
+  ]
+}

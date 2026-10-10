@@ -1,0 +1,724 @@
+{
+  "dist": -0.019,
+  "yaw": -115.0,
+  "pitch": 57.5,
+  "roll": -6.0,
+  "generation": 3,
+  "id": 31,
+  "score": 0.91,
+  "description": "The nozzle is closely positioned above the keys and directed toward the target, with plausible clearance.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      0.1962987247038455,
+      -0.8349192554908171,
+      0.5141758735282147,
+      -0.2676478392463212
+    ],
+    [
+      0.6647942474615913,
+      -0.27213535213476864,
+      -0.695694614065463,
+      0.019971118082936515
+    ],
+    [
+      0.7207742867944663,
+      0.4783850558831993,
+      0.5016296069326447,
+      0.637430285069114
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      0.2252070770961992,
+      0.9200968340226111,
+      0.32047392082180937,
+      0.6821992516933945
+    ],
+    [
+      -0.44120441399857385,
+      0.3895736364306952,
+      -0.8084368804635276,
+      0.27760914159562516
+    ],
+    [
+      -0.8686884327519178,
+      0.04067101459698361,
+      0.49368617160793293,
+      0.13413537097845585
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    0.09963265393941993,
+    -0.00733844495639885,
+    0.048986244946718216
+  ],
+  "target_world": [
+    0.7178628989486366,
+    0.1828067392954299,
+    0.05496592648187343
+  ],
+  "target_camera": [
+    -0.21304584628397763,
+    0.06675500751257243,
+    0.744
+  ],
+  "relative_transform": [
+    [
+      -0.22707262651349336,
+      0.9386002928881972,
+      -0.2597450913462164,
+      0.36946162169312746
+    ],
+    [
+      -0.4869588190164687,
+      -0.3404044596091947,
+      -0.804360561228768,
+      0.2152977245461294
+    ],
+    [
+      -0.8433914458128858,
+      -0.05616310237480554,
+      0.5343562248737143,
+      -0.01077522603535444
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.7174696372979924,
+    0.18741229678914964,
+    0.05289973447338003
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 8,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.06,
+          "description": "The nozzle is at the keyboard, but the target is slightly behind its outward axis and the blower substantially penetrates the table.",
+          "table_penetration": 0.11441068000318312,
+          "params": {
+            "dist": 0.00468214525285654,
+            "yaw": -41.85672712065326,
+            "pitch": -9.404831532671693,
+            "roll": -14.780074225470878
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.01,
+          "description": "Most of the blower is hidden below the surface; severe table penetration makes this placement unusable.",
+          "table_penetration": 0.19762208985027452,
+          "params": {
+            "dist": -0.03904584991295881,
+            "yaw": 112.56592545861213,
+            "pitch": -45.80964445782323,
+            "roll": -1.3204448802804762
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.84,
+          "description": "The nozzle points toward the keys from about 8 cm away, with visible clearance and the target in front along its axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.08039043812566851,
+            "yaw": -5.873618504804028,
+            "pitch": 38.12297016780536,
+            "roll": -12.078467983205252
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.05,
+          "description": "The blower sits against the keyboard with some table penetration, while the target is behind its outward axis.",
+          "table_penetration": 0.04214540636595897,
+          "params": {
+            "dist": 0.07620247910752392,
+            "yaw": -37.85124833211657,
+            "pitch": 24.455070489424557,
+            "roll": -3.361065761141866
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.0,
+          "description": "The blower is largely beneath the table despite the target being in front along its axis.",
+          "table_penetration": 0.24227844060529424,
+          "params": {
+            "dist": -0.08892950705074028,
+            "yaw": 29.116251063320902,
+            "pitch": -89.82753040361379,
+            "roll": 11.981007127013491
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.01,
+          "description": "The blower is embedded in the keyboard and table, and its outward axis points away from the target.",
+          "table_penetration": 0.07151940104149351,
+          "params": {
+            "dist": 0.1776338096521914,
+            "yaw": -158.7095819416621,
+            "pitch": 24.205074601506055,
+            "roll": -6.65702928358931
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.03,
+          "description": "The nozzle points upward away from the keyboard; the target is far behind its outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.19102807925852855,
+            "yaw": -106.65178356546241,
+            "pitch": -75.78282372030898,
+            "roll": 17.258601452907094
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.93,
+          "description": "The nozzle is close above the keys and directed at them, with no measured table penetration and a plausible short blowing distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.02807030732505847,
+            "yaw": -23.93303780141912,
+            "pitch": 58.507499453350675,
+            "roll": -4.120344139322164
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 8,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.02,
+          "description": "Much of the blower penetrates the table, and the target is behind the supplied outward axis.",
+          "table_penetration": 0.1168405617589224,
+          "params": {
+            "dist": 0.078055967498038,
+            "yaw": -42.159483420813984,
+            "pitch": -34.8250255524833,
+            "roll": -9.843738090343358
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.02,
+          "description": "The blower penetrates the table substantially, with the target behind the supplied outward axis.",
+          "table_penetration": 0.11276347842972324,
+          "params": {
+            "dist": 0.07450235876193034,
+            "yaw": -40.51434279756731,
+            "pitch": -22.364669351021476,
+            "roll": -9.220917262855552
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.9,
+          "description": "The nozzle is aimed down at the keys from very close range. Clearance is tight but plausible.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.010762690140059261,
+            "yaw": -119.04605955329964,
+            "pitch": 57.12431316666226,
+            "roll": -6.2812308419957485
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.0,
+          "description": "Most of the blower is hidden by severe table penetration, making this placement unusable.",
+          "table_penetration": 0.2951658715746476,
+          "params": {
+            "dist": -0.16294408022595086,
+            "yaw": 132.52945159160686,
+            "pitch": -52.86923916526061,
+            "roll": 18.673264344227555
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.87,
+          "description": "The nozzle points toward the marked keys from a short, plausible blowing distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.035,
+            "yaw": -24.0,
+            "pitch": 58.0,
+            "roll": -4.0
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.75,
+          "description": "The nozzle has clearance and is aimed toward the keys, but its shallow angle is less direct.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.05,
+            "yaw": -18.0,
+            "pitch": 52.0,
+            "roll": -5.0
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.67,
+          "description": "The nozzle is clear of the keyboard but relatively far away and aimed at a shallow angle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.06,
+            "yaw": -10.0,
+            "pitch": 45.0,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.88,
+          "description": "The nozzle is close to the marked keys and angled down toward them, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.04,
+            "yaw": -29.0,
+            "pitch": 61.0,
+            "roll": -2.0
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.91,
+          "description": "The nozzle is close above the keys and angled toward the marked area, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.02807030732505847,
+            "yaw": -23.93303780141912,
+            "pitch": 58.507499453350675,
+            "roll": -4.120344139322164
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 23,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.88,
+          "description": "The nozzle is close to the keys and aimed at the effect point, with the blower body clear of the keyboard.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.015039893702198132,
+            "yaw": 18.44474264015375,
+            "pitch": 60.94237143915399,
+            "roll": 17.576283404971498
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.03,
+          "description": "The blower overlaps the keyboard, and the target is behind the supplied outward axis rather than in the airflow direction.",
+          "table_penetration": 0.055823918463291586,
+          "params": {
+            "dist": 0.1374355489918188,
+            "yaw": -44.804263935342505,
+            "pitch": 49.244749682000304,
+            "roll": -12.871557164844472
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.01,
+          "description": "Most of the blower is beneath the table surface, making this placement physically unusable despite the axis alignment.",
+          "table_penetration": 0.17247311038003685,
+          "params": {
+            "dist": -0.182397405919435,
+            "yaw": 107.82990015195077,
+            "pitch": -17.755791192833513,
+            "roll": 15.436175073539545
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.0,
+          "description": "The blower is not visible above the table and has severe measured table penetration.",
+          "table_penetration": 0.31549120297334177,
+          "params": {
+            "dist": -0.16535469492374047,
+            "yaw": -26.437576225849284,
+            "pitch": -77.48687822353239,
+            "roll": 6.434722746169509
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.89,
+          "description": "The nozzle points toward the keys from a short distance, while the body appears to have clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.026,
+            "yaw": -24.0,
+            "pitch": 59.5,
+            "roll": -4.0
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.85,
+          "description": "The nozzle is directed at the keyboard and appears clear, though it is slightly farther from the target than the closest candidates.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.032,
+            "yaw": -27.0,
+            "pitch": 60.0,
+            "roll": -3.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.91,
+          "description": "The nozzle is close to the target keys and directed toward them, with plausible clearance for the blower body.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.022,
+            "yaw": -21.0,
+            "pitch": 58.0,
+            "roll": -4.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.9,
+          "description": "The nozzle approaches the keys closely at an angle and appears to remain clear of the keyboard.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.016,
+            "yaw": -118.0,
+            "pitch": 57.0,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.88,
+          "description": "The nozzle is aimed at the target keys from a short distance, with no evident table penetration or major obstruction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.02807030732505847,
+            "yaw": -23.93303780141912,
+            "pitch": 58.507499453350675,
+            "roll": -4.120344139322164
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 31,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.02,
+          "description": "The nozzle points upward, away from the keyboard. The target is behind the supplied outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.17107340654271436,
+            "yaw": 106.72832178719847,
+            "pitch": -80.57316359268245,
+            "roll": 16.646552421375105
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.69,
+          "description": "The nozzle points down at the keys with clear space around it, but its roughly 15 cm standoff makes the airflow less concentrated.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14523492690432935,
+            "yaw": -92.80576687062535,
+            "pitch": 83.93549627243098,
+            "roll": -6.8182007623953
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.0,
+          "description": "The blower is largely hidden beneath the surface and has substantial measured table penetration; it cannot blow onto the keys from this pose.",
+          "table_penetration": 0.172209464335638,
+          "params": {
+            "dist": -0.021016317496480946,
+            "yaw": 17.328978530735384,
+            "pitch": -80.75313983319863,
+            "roll": 17.653433187955947
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.08,
+          "description": "The blower lies across the keys with slight table penetration, and the target is behind its supplied outward axis.",
+          "table_penetration": 0.011853755507184094,
+          "params": {
+            "dist": 0.061556134481361935,
+            "yaw": -150.44638431485038,
+            "pitch": 23.89741952794209,
+            "roll": 7.7641125016056804
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.83,
+          "description": "The nozzle is close to the keys and directed toward them, while the blower body and handle appear to have reasonable clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.02,
+            "yaw": -20.0,
+            "pitch": 58.0,
+            "roll": -4.0
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.82,
+          "description": "The nozzle is close to the target keys and aimed toward them, with plausible clearance for the rest of the blower.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.024,
+            "yaw": -22.0,
+            "pitch": 59.0,
+            "roll": -4.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.87,
+          "description": "The nozzle aims at the keys from close range, and the body and handle remain clear of the keyboard.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.019,
+            "yaw": -115.0,
+            "pitch": 57.5,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.83,
+          "description": "The nozzle is close and directed into the target area, with the body and handle clear enough for blowing.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.023,
+            "yaw": -24.0,
+            "pitch": 58.5,
+            "roll": -3.5
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.83,
+          "description": "The nozzle is close to the target keys and directed toward them, with plausible clearance around the blower.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.022,
+            "yaw": -21.0,
+            "pitch": 58.0,
+            "roll": -4.0
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 31,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.0,
+          "description": "The blower is not visible and has severe measured table penetration, so it cannot plausibly blow onto the keyboard.",
+          "table_penetration": 0.27446941607086034,
+          "params": {
+            "dist": -0.1758445438237285,
+            "yaw": -60.36020034055984,
+            "pitch": -36.17464555926604,
+            "roll": -10.396346421431183
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The blower intersects the table and keyboard despite the target lying in front of its nozzle.",
+          "table_penetration": 0.2454037974417695,
+          "params": {
+            "dist": -0.16328074290760825,
+            "yaw": 148.7179453910599,
+            "pitch": -38.135518971774964,
+            "roll": -11.979146620973737
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.66,
+          "description": "The nozzle points toward the keyboard with clear space, but its roughly 20 cm standoff is less effective for focused cleaning.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1999349191827912,
+            "yaw": -41.29078748173097,
+            "pitch": 59.78985478277599,
+            "roll": 18.09701337977274
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.01,
+          "description": "The blower penetrates the table or keyboard, and the target is behind its outward functional direction.",
+          "table_penetration": 0.1427920933562666,
+          "params": {
+            "dist": 0.04199143181951426,
+            "yaw": -41.05533092904551,
+            "pitch": -48.14537838301546,
+            "roll": -14.12479688758966
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.91,
+          "description": "The nozzle is close above the keys and directed at the target, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.019,
+            "yaw": -110.0,
+            "pitch": 57.5,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.89,
+          "description": "The nozzle is close and aimed across the keys toward the target, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.023,
+            "yaw": -120.0,
+            "pitch": 58.0,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.9,
+          "description": "The nozzle is close above the keyboard and aligned to blow at the target without measured table penetration.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.02,
+            "yaw": -115.0,
+            "pitch": 54.5,
+            "roll": -5.0
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle is aimed at the target from just above the keys, though its very close placement leaves little margin for clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.024,
+            "yaw": -115.0,
+            "pitch": 61.0,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.91,
+          "description": "The nozzle is closely positioned above the keys and directed toward the target, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.019,
+            "yaw": -115.0,
+            "pitch": 57.5,
+            "roll": -6.0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "dist": -0.007,
+  "yaw": -43.5,
+  "pitch": 65.5,
+  "roll": -9.0,
+  "generation": 3,
+  "id": 32,
+  "score": 0.88,
+  "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      -0.41904994859465994,
+      -0.307800423417194,
+      -0.8541990354334849,
+      -0.04755389074106697
+    ],
+    [
+      0.7831516878860927,
+      0.3535017141409938,
+      -0.5115759183755071,
+      0.05373371227511162
+    ],
+    [
+      0.4594241950434283,
+      -0.8833432518223251,
+      0.09291957971105744,
+      0.6626283510038194
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      0.34618750799532905,
+      -0.631038395876875,
+      0.6942223285395064,
+      0.5757110514320951
+    ],
+    [
+      0.22742383652732354,
+      0.7743542833061234,
+      0.5904681878477237,
+      0.09962775417604747
+    ],
+    [
+      -0.9101826380735293,
+      -0.04653052689234527,
+      0.4115848900339451,
+      0.12157963588930742
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    0.08472184288103829,
+    -0.0003943211208346948,
+    0.07408658415079117
+  ],
+  "target_world": [
+    0.659145400378073,
+    0.16392791441583876,
+    0.06860727352708948
+  ],
+  "target_camera": [
+    -0.1491532407975858,
+    0.08752552282503741,
+    0.712
+  ],
+  "relative_transform": [
+    [
+      0.3008078500548153,
+      0.576623251307513,
+      0.759618498587911,
+      0.25003145372275987
+    ],
+    [
+      -0.2854559910917025,
+      0.8144306039952356,
+      -0.505190724801841,
+      0.09899711176108017
+    ],
+    [
+      -0.9099612708765433,
+      -0.06487231557072742,
+      0.40958768069515766,
+      0.01810746122372496
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.6481230316321227,
+    0.17038437091313188,
+    0.06472546821989014
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 4,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.07,
+          "description": "The gun penetrates the table substantially, and its nozzle appears buried beside the blocks. The target is behind the supplied outward axis.",
+          "table_penetration": 0.09197581173389313,
+          "params": {
+            "dist": 0.05462844050459004,
+            "yaw": -135.84115506319733,
+            "pitch": -61.32895115606988,
+            "roll": 8.970438579965837
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.3,
+          "description": "The nozzle points toward the blocks with good clearance, but it is about 14 cm from the target\u2014too far to apply glue accurately.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14063952701631177,
+            "yaw": -64.87125320055353,
+            "pitch": 73.64592770315971,
+            "roll": 3.935669847876021
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.0,
+          "description": "The gun is largely beneath the table and cannot apply glue to the blocks. The target is behind the supplied outward axis.",
+          "table_penetration": 0.12956492546968104,
+          "params": {
+            "dist": 0.19772072680856528,
+            "yaw": -59.50460969414058,
+            "pitch": 82.09404859601253,
+            "roll": 19.433354292780415
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.88,
+          "description": "The nozzle is close to the target, directed toward the blocks, and appears to have plausible clearance without measured table penetration.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.019035420146616078,
+            "yaw": -43.6539456679572,
+            "pitch": 66.20699969513635,
+            "roll": -8.726698110474054
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.05,
+          "description": "The nozzle points away from the blocks; the target is about 18 cm behind its outward axis, despite the gun body being nearby.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.17645941030634832,
+            "yaw": 76.92450825042727,
+            "pitch": -70.18833175986703,
+            "roll": -3.6382559452819585
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.05,
+          "description": "The gun overlaps the blocks and penetrates the table, while its nozzle is not positioned to dispense glue at the target. The target is behind the outward axis.",
+          "table_penetration": 0.041792766834808606,
+          "params": {
+            "dist": 0.11321297166922084,
+            "yaw": 41.83095873778973,
+            "pitch": 73.56319214550035,
+            "roll": -7.7900436639059265
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.23,
+          "description": "The nozzle is aimed toward the target and has clearance, but it is about 18 cm away\u2014much too far for precise gluing.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.18038446003723188,
+            "yaw": -111.53877305763496,
+            "pitch": 52.523145504539144,
+            "roll": -18.249259346523544
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.03,
+          "description": "The gun lies through the blocks and penetrates the table substantially. Its nozzle is not at the target, which is behind the supplied outward axis.",
+          "table_penetration": 0.10960328603736727,
+          "params": {
+            "dist": 0.0728313768175578,
+            "yaw": 146.75376890276874,
+            "pitch": -12.064080301313439,
+            "roll": -7.108124166873662
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 13,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.48,
+          "description": "The nozzle is aimed toward the blocks, consistent with the supplied axis, but it is about 6 cm from the target and too far away for precise glue application.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.06440632219729414,
+            "yaw": -80.4906156599147,
+            "pitch": 59.89552506774501,
+            "roll": -19.29963071873072
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.02,
+          "description": "The gun is largely beneath the table surface despite its axis pointing toward the target; it cannot apply glue from this pose.",
+          "table_penetration": 0.1655150723851977,
+          "params": {
+            "dist": -0.0627588098974737,
+            "yaw": 51.27640507324844,
+            "pitch": -89.4120758774404,
+            "roll": 9.59184499444654
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.01,
+          "description": "The gun is mostly buried beneath the table and its functional point is far from the target.",
+          "table_penetration": 0.25957643632896044,
+          "params": {
+            "dist": -0.1458223785690229,
+            "yaw": -93.18342729546049,
+            "pitch": -73.69813886315868,
+            "roll": -19.217785703841454
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.01,
+          "description": "The gun penetrates deeply into the table and is too far from the blocks to apply glue.",
+          "table_penetration": 0.23988883641584782,
+          "params": {
+            "dist": -0.15710007323316288,
+            "yaw": 55.48247946590578,
+            "pitch": -33.667635781277184,
+            "roll": 7.0089894561574475
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.94,
+          "description": "The nozzle points toward the marked spot and sits close above the wood, with plausible clearance for applying glue.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.012,
+            "yaw": -43.7,
+            "pitch": 66.2,
+            "roll": -8.7
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.79,
+          "description": "The nozzle is directed at the wood with clear access, but its roughly 2.5 cm gap is less precise than the closer poses.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.025,
+            "yaw": -39.0,
+            "pitch": 68.0,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.91,
+          "description": "The nozzle is close to the target and directed onto the wood, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.015,
+            "yaw": -49.0,
+            "pitch": 62.0,
+            "roll": -6.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.85,
+          "description": "The nozzle is properly directed toward the wood and appears clear of obstacles, though it remains slightly farther away.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.021,
+            "yaw": -46.0,
+            "pitch": 70.0,
+            "roll": -10.0
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.88,
+          "description": "The nozzle points toward the marked spot and is close enough for plausible glue application, with no visible obstruction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.019035420146616078,
+            "yaw": -43.6539456679572,
+            "pitch": 66.20699969513635,
+            "roll": -8.726698110474054
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 21,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.43,
+          "description": "The nozzle points down toward the blocks with clear space around the gun, but it is about 7.5 cm from the target\u2014too far for controlled glue application.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07536496311653243,
+            "yaw": 156.52493994081772,
+            "pitch": 85.03151128247751,
+            "roll": -12.945385587759075
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.0,
+          "description": "The gun is largely buried below the table, and the target is behind its supplied outward axis.",
+          "table_penetration": 0.12688022916752006,
+          "params": {
+            "dist": 0.17634941191018394,
+            "yaw": -127.24929227008491,
+            "pitch": 35.75330287810286,
+            "roll": -6.517974411129973
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.03,
+          "description": "The nozzle points toward the blocks but is about 17 cm away; the gun also penetrates the table.",
+          "table_penetration": 0.07499759400965003,
+          "params": {
+            "dist": -0.1678967246782917,
+            "yaw": -13.177992891571506,
+            "pitch": 6.001248823071975,
+            "roll": -9.854088125234938
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.0,
+          "description": "The gun is almost entirely hidden beneath the table and cannot apply glue in this pose.",
+          "table_penetration": 0.19077229008785868,
+          "params": {
+            "dist": -0.08483603115160708,
+            "yaw": 12.4823193884217,
+            "pitch": -30.26664949404654,
+            "roll": 17.395922484668475
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.91,
+          "description": "The nozzle is close to the marked spot and directed toward the blocks, with plausible clearance for applying glue.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.01,
+            "yaw": -43.7,
+            "pitch": 66.2,
+            "roll": -8.7
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.9,
+          "description": "The nozzle is close to the marked spot and aimed into the blocks, with no measured table penetration.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.012,
+            "yaw": -45.0,
+            "pitch": 65.0,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.9,
+          "description": "The nozzle is close to the marked spot and suitably aimed at the blocks, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.013,
+            "yaw": -42.5,
+            "pitch": 67.0,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.9,
+          "description": "The nozzle is near the marked spot and directed toward the blocks; the gun appears clear of the table.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.011,
+            "yaw": -44.0,
+            "pitch": 66.0,
+            "roll": -7.5
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.9,
+          "description": "The nozzle is near the marked spot and directed toward the blocks, with plausible clearance for glue application.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.012,
+            "yaw": -43.7,
+            "pitch": 66.2,
+            "roll": -8.7
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 32,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.34,
+          "description": "The nozzle is aimed toward the blocks with apparent clearance, but it is about 11 cm from the target\u2014too far for precise glue application.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1114327259410155,
+            "yaw": 61.743450332242844,
+            "pitch": 31.059027309947354,
+            "roll": -15.564651520920796
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.27,
+          "description": "The nozzle points toward the target, but it remains about 10 cm away and approaches at a shallow angle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.10531885548604564,
+            "yaw": -114.07506732558191,
+            "pitch": 37.862330710808195,
+            "roll": 3.8085527121942455
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.03,
+          "description": "The gun is driven into the table and blocks; the target is also behind the functional point along the supplied axis.",
+          "table_penetration": 0.07671125114853752,
+          "params": {
+            "dist": 0.03077728979896971,
+            "yaw": 103.42696986270931,
+            "pitch": 18.136347363622278,
+            "roll": -16.719385429050767
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.61,
+          "description": "The nozzle is close to the wood and the body has clearance, but it appears to overshoot the target slightly, consistent with the negative forward distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.007320475503168611,
+            "yaw": -10.720433587910833,
+            "pitch": 69.11424593951043,
+            "roll": -8.380391590270078
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.86,
+          "description": "The nozzle is close to the block surface and directed toward the target, with plausible clearance for applying glue.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.008,
+            "yaw": -43.7,
+            "pitch": 66.2,
+            "roll": -8.7
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.86,
+          "description": "The nozzle is close to the target and oriented to apply glue to the wood, without an obvious collision.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.009,
+            "yaw": -43.0,
+            "pitch": 67.0,
+            "roll": -8.5
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.85,
+          "description": "The nozzle is well aligned and close to the block, though contact or clearance at the tip is tight.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.01,
+            "yaw": -44.5,
+            "pitch": 66.5,
+            "roll": -8.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.87,
+          "description": "The nozzle is closely positioned over the wood with a suitable direction and plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.007,
+            "yaw": -43.5,
+            "pitch": 65.5,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.85,
+          "description": "The nozzle is near the intended spot and points into it, with little apparent interference from the blocks.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.01,
+            "yaw": -43.7,
+            "pitch": 66.2,
+            "roll": -8.7
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 32,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.0,
+          "description": "The gun is not visible at the blocks; the large measured table penetration makes this placement unsuitable.",
+          "table_penetration": 0.2658294449068166,
+          "params": {
+            "dist": -0.1876931887755481,
+            "yaw": -55.11338055435522,
+            "pitch": -37.9622514811764,
+            "roll": -8.109976334731591
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.06,
+          "description": "The tip appears near the blocks, but most of the gun is hidden and it substantially penetrates the table.",
+          "table_penetration": 0.13101240168608813,
+          "params": {
+            "dist": -0.027183345889677663,
+            "yaw": -133.35660456591432,
+            "pitch": -87.34757232540181,
+            "roll": -7.417399803060727
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The visible gun extends away from the blocks, with the target behind its functional point, and it penetrates the table.",
+          "table_penetration": 0.12823463194035273,
+          "params": {
+            "dist": 0.17971192560922689,
+            "yaw": 56.59186606732209,
+            "pitch": 27.863650330305788,
+            "roll": 3.9177902326879916
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.0,
+          "description": "The gun is not visibly positioned to apply glue and has severe measured table penetration.",
+          "table_penetration": 0.2337436051381435,
+          "params": {
+            "dist": -0.11131290048614986,
+            "yaw": 29.22762899848223,
+            "pitch": -65.04937856292531,
+            "roll": 8.34449686120091
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.007,
+            "yaw": -42.5,
+            "pitch": 65.5,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.008,
+            "yaw": -43.5,
+            "pitch": 64.5,
+            "roll": -9.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.007,
+            "yaw": -44.5,
+            "pitch": 66.0,
+            "roll": -8.5
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.009,
+            "yaw": -43.5,
+            "pitch": 65.5,
+            "roll": -9.5
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.88,
+          "description": "The nozzle is close to the top of the blocks and directed toward the effect point, with plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.007,
+            "yaw": -43.5,
+            "pitch": 65.5,
+            "roll": -9.0
+          }
+        }
+      ]
+    }
+  ]
+}

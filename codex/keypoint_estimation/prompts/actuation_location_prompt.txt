@@ -1,0 +1,3 @@
+An actuation contact point is the location on the object where a human finger interacts with. The interaction should lead to *internal* motion required for the task (e.g. pressing a <pen button>, pulling a <trigger>, closing the two <handles>). 
+
+What are the actuaction contact points to TASK? Express in <>.

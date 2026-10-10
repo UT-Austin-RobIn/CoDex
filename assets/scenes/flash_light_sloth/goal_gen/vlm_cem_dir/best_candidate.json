@@ -1,0 +1,724 @@
+{
+  "dist": -0.195,
+  "yaw": 55.0,
+  "pitch": 34.0,
+  "roll": 10.0,
+  "generation": 3,
+  "id": 31,
+  "score": 0.94,
+  "description": "The flashlight is positioned clear of the sloth and table, with its beam aligned toward the torso.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      0.7921309839830869,
+      0.42858675148390785,
+      -0.43455957511700394,
+      -0.052947880485694654
+    ],
+    [
+      0.6100506523864662,
+      -0.5336188770921808,
+      0.585738105477031,
+      -0.15064200449674325
+    ],
+    [
+      0.01915047316497337,
+      -0.7290845395361284,
+      -0.6841556155080923,
+      0.9532699612138719
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      -0.6084296544416191,
+      -0.6314904862139566,
+      -0.48065884217018284,
+      0.8701450663342077
+    ],
+    [
+      -0.5778179162415947,
+      -0.06267288296827339,
+      0.8137553001909036,
+      -0.07871942661722403
+    ],
+    [
+      -0.5440029573234728,
+      0.772846370596878,
+      -0.3267551804533292,
+      0.20149036055888309
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    0.022541948928703898,
+    4.612563819314949e-05,
+    0.09392260215599485
+  ],
+  "target_world": [
+    0.7175275448062893,
+    0.1433648394474321,
+    0.09485616470537506
+  ],
+  "target_camera": [
+    -0.1606260186970789,
+    0.032318090258363505,
+    0.756
+  ],
+  "relative_transform": [
+    [
+      0.47551641646724246,
+      -0.7510113896937928,
+      0.45811137316197464,
+      -0.1305874253324048
+    ],
+    [
+      0.6791078223508455,
+      0.6444045020601321,
+      0.35150448552831426,
+      -0.4403790431078644
+    ],
+    [
+      -0.559192903470747,
+      0.14396086369159847,
+      0.816442628990626,
+      0.03625183062258666
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.7103115961050112,
+    0.16025857668960647,
+    0.07686768699724539
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 6,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.01,
+          "description": "Most of the flashlight is below the table, with substantial measured penetration. The target is behind its outward axis.",
+          "table_penetration": 0.06704307650607763,
+          "params": {
+            "dist": 0.16514180768109415,
+            "yaw": -160.15075342324872,
+            "pitch": -72.95811829488895,
+            "roll": 10.309387775842591
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.43,
+          "description": "The lens points toward the sloth and the target is just in front, but the flashlight appears to overlap the sloth's torso and shoulder.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.03285235346556151,
+            "yaw": 53.03154984285342,
+            "pitch": 27.994580161472044,
+            "roll": 10.060036966641324
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.06,
+          "description": "The lens faces away from the sloth, placing the target well behind the outward axis. The flashlight also overlaps the sloth.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.18022608390281625,
+            "yaw": 118.67597353206634,
+            "pitch": 54.77856908128982,
+            "roll": 8.918124461272964
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.13,
+          "description": "The lens is near the sloth but points sideways, with the target slightly behind its outward axis. The body appears to overlap the sloth.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.021004310915506252,
+            "yaw": -111.49437826577403,
+            "pitch": 17.875181360002017,
+            "roll": -6.6756131834942956
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.08,
+          "description": "The flashlight sits within the sloth's torso, and its lens faces away from the target, which is behind the outward axis.",
+          "table_penetration": 0.004402456996640297,
+          "params": {
+            "dist": 0.034349112699992995,
+            "yaw": -61.75980874279442,
+            "pitch": -48.137922564697526,
+            "roll": -2.353769475981874
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.86,
+          "description": "The flashlight is clear of the table and points down toward the sloth from above. Its beam may strike the head before the marked chest target, but it can illuminate the sloth.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1207266768272127,
+            "yaw": -154.01419350812583,
+            "pitch": -89.48635667677686,
+            "roll": -1.584678991634508
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.04,
+          "description": "The flashlight is largely obscured in the original view, appears to intersect the sloth, and has measured table penetration despite the target being in front of its axis.",
+          "table_penetration": 0.03376166406223276,
+          "params": {
+            "dist": -0.08634291437794724,
+            "yaw": -55.338554564094224,
+            "pitch": -89.68886101148111,
+            "roll": -15.311691316102145
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.32,
+          "description": "The lens points toward the target, but the flashlight appears to pass through the sloth's head and upper body, making the placement physically implausible.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.05914696445599929,
+            "yaw": 17.0284264699595,
+            "pitch": 56.23210830403795,
+            "roll": -7.2849210748437
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 9,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.9,
+          "description": "The flashlight is clear of the table and sloth, with its beam directed toward the sloth's torso. The head may partly shade the marked point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16776114564334496,
+            "yaw": -1.5666616312367125,
+            "pitch": 75.07558563743228,
+            "roll": 14.552911519298348
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.03,
+          "description": "The flashlight overlaps the sloth and dips slightly into the table. The target is behind its supplied outward axis, contrary to the intended illumination direction.",
+          "table_penetration": 0.013111305282882735,
+          "params": {
+            "dist": 0.11223075631528356,
+            "yaw": -15.090174996059886,
+            "pitch": 43.446529376030156,
+            "roll": -8.043415194888976
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.06,
+          "description": "Although the axis points toward the sloth, much of the flashlight penetrates the table, making this placement unusable.",
+          "table_penetration": 0.07614909133206268,
+          "params": {
+            "dist": -0.17062033339548666,
+            "yaw": 52.915889725887126,
+            "pitch": -89.52860100230747,
+            "roll": 13.738742953098964
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.01,
+          "description": "The flashlight is mostly buried beneath the table, so it cannot plausibly illuminate the sloth despite the axis alignment.",
+          "table_penetration": 0.2263773163337119,
+          "params": {
+            "dist": -0.18194463219766113,
+            "yaw": -139.14945477209326,
+            "pitch": 41.84919233348734,
+            "roll": 18.98370655306509
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.58,
+          "description": "The flashlight points down at the sloth, but its rim is extremely close to the top of the head, and the head blocks a direct path to the marked torso point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16,
+            "yaw": -154.0,
+            "pitch": -89.5,
+            "roll": -1.6
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.79,
+          "description": "The flashlight has clearance above the head and points down at the sloth. It can illuminate the head, though the head obstructs the beam's path to the marked torso point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.2,
+            "yaw": -154.0,
+            "pitch": -83.0,
+            "roll": -1.6
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.86,
+          "description": "The flashlight is beside and above the sloth with good table clearance, aimed into its upper body. An arm may partly intercept the beam before it reaches the marked point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16,
+            "yaw": 53.0,
+            "pitch": 28.0,
+            "roll": 10.1
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.78,
+          "description": "The flashlight is clear of the table and aimed toward the sloth, but its angled beam crosses the head before reaching the marked torso point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.21,
+            "yaw": 17.0,
+            "pitch": 56.2,
+            "roll": -7.3
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.46,
+          "description": "The flashlight points downward at the sloth, but its rim appears to overlap or nearly touch the head, which also blocks the path to the marked torso point.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1207266768272127,
+            "yaw": -154.01419350812583,
+            "pitch": -89.48635667677686,
+            "roll": -1.584678991634508
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 24,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.7,
+          "description": "The beam points toward the sloth's chest, but the flashlight is close to its head in the side view, leaving questionable clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14919236438341454,
+            "yaw": 29.784941594776143,
+            "pitch": 40.366825526901806,
+            "roll": 13.550912337751868
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.06,
+          "description": "Much of the flashlight is hidden within the sloth, and the measured table penetration makes this placement physically unsuitable.",
+          "table_penetration": 0.07231202847968732,
+          "params": {
+            "dist": -0.07993890153272379,
+            "yaw": 12.69901366660855,
+            "pitch": -21.841610957321947,
+            "roll": -1.1733099100425584
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.02,
+          "description": "The flashlight overlaps the sloth and points away from the target; the sloth is behind its supplied outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.1381589037025262,
+            "yaw": -9.58103421421535,
+            "pitch": 27.482187856189142,
+            "roll": 18.56550720791111
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.83,
+          "description": "The lens faces the sloth's torso from the side with a clear beam direction, though it sits fairly close to an arm.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1415836322847746,
+            "yaw": 38.489155790457175,
+            "pitch": 24.30446959932351,
+            "roll": 7.212210729512783
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.79,
+          "description": "The flashlight is elevated and aimed at the torso, but the side view suggests its lens comes close to the sloth's head.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.185,
+            "yaw": -22.0,
+            "pitch": 69.0,
+            "roll": 14.0
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.76,
+          "description": "The downward beam reaches the torso, but the lens is close to the head in the other views, limiting confidence in its clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.19,
+            "yaw": 20.0,
+            "pitch": 67.0,
+            "roll": 13.0
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.92,
+          "description": "The lens has good clearance to the side of the sloth and points directly toward its torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.18,
+            "yaw": 40.0,
+            "pitch": 40.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.94,
+          "description": "The flashlight is clear of the sloth and table, with its beam directed at the torso from a useful elevated angle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.185,
+            "yaw": 67.0,
+            "pitch": 25.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.65,
+          "description": "The beam is directed at the torso, but the flashlight appears very close to or overlapping the head in the side view.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16776114564334496,
+            "yaw": -1.5666616312367125,
+            "pitch": 75.07558563743228,
+            "roll": 14.552911519298348
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 31,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.01,
+          "description": "The flashlight overlaps the sloth and slightly penetrates the table. The sloth is behind its outward beam axis.",
+          "table_penetration": 0.017851475617221044,
+          "params": {
+            "dist": 0.1699351988397217,
+            "yaw": -143.6242421480797,
+            "pitch": -44.26633436722649,
+            "roll": 8.012133724986388
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.02,
+          "description": "The flashlight overlaps the sloth's body, while its lens points away from the target; the sloth is behind the beam axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.1342708019413274,
+            "yaw": -101.49155592909742,
+            "pitch": -38.45126744940093,
+            "roll": 13.84009830256283
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.34,
+          "description": "The lens points toward the sloth's torso, but the flashlight is so close that its head appears to overlap the sloth's right side.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.06203678039369903,
+            "yaw": 92.70373100435995,
+            "pitch": -23.621413445634772,
+            "roll": -1.9704328892047975
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.27,
+          "description": "The beam points toward the sloth, but the flashlight head appears to intersect its shoulder or arm, leaving implausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.07291230309202615,
+            "yaw": 142.02305447303883,
+            "pitch": 5.216203236472907,
+            "roll": 15.864593597586818
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.88,
+          "description": "The flashlight is off to the side with its beam directed at the sloth's torso and plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.195,
+            "yaw": 65.0,
+            "pitch": 27.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.87,
+          "description": "The beam reaches the sloth's torso from a clear position beside and above it, though it passes fairly near the right shoulder.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.205,
+            "yaw": 72.0,
+            "pitch": 28.0,
+            "roll": 8.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.94,
+          "description": "The flashlight has good clearance above and beside the sloth, with its beam directed down toward the torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.195,
+            "yaw": 55.0,
+            "pitch": 34.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.89,
+          "description": "The flashlight is clear of the sloth and aimed at its torso, although the beam approaches close to the right shoulder.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.2,
+            "yaw": 43.0,
+            "pitch": 40.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.87,
+          "description": "The flashlight is positioned off to the side and aimed at the sloth's torso with plausible clearance, though the beam is near its right shoulder.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.185,
+            "yaw": 67.0,
+            "pitch": 25.0,
+            "roll": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 31,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.84,
+          "description": "The beam is aimed at the sloth's torso with a clear path, though the flashlight sits close to its head.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.19213953741199724,
+            "yaw": 31.478990990492974,
+            "pitch": 44.63480562275322,
+            "roll": -14.371655062604445
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The flashlight overlaps the sloth and slightly penetrates the table. The target is behind its supplied outward axis.",
+          "table_penetration": 0.01655930731781484,
+          "params": {
+            "dist": 0.03810172194278705,
+            "yaw": -121.49775177372757,
+            "pitch": 37.45992295414966,
+            "roll": 6.368353515043665
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.02,
+          "description": "The flashlight intersects the sloth's body and points away from the target, which is behind its supplied outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.056538698252978636,
+            "yaw": 140.4174604532215,
+            "pitch": -68.3688984435392,
+            "roll": 6.413495388605163
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.01,
+          "description": "Despite its axis pointing toward the target, the flashlight is largely beneath the tabletop and cannot illuminate the sloth from this pose.",
+          "table_penetration": 0.1677287251001034,
+          "params": {
+            "dist": -0.1247872302500738,
+            "yaw": 33.84015209202212,
+            "pitch": -76.46669379621642,
+            "roll": 6.488496955824544
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.93,
+          "description": "The flashlight is clear of the sloth and table, with its beam directed onto the torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.21,
+            "yaw": 55.0,
+            "pitch": 34.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.94,
+          "description": "The flashlight has good clearance and points directly toward the sloth's torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.2,
+            "yaw": 59.0,
+            "pitch": 35.0,
+            "roll": 10.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.94,
+          "description": "The flashlight is well clear of the scene geometry and aimed at the sloth's torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.215,
+            "yaw": 52.0,
+            "pitch": 32.0,
+            "roll": 9.0
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.92,
+          "description": "The flashlight has clear separation from the sloth and directs its beam toward the torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.22,
+            "yaw": 57.0,
+            "pitch": 38.0,
+            "roll": 11.0
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.94,
+          "description": "The flashlight is positioned clear of the sloth and table, with its beam aligned toward the torso.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.195,
+            "yaw": 55.0,
+            "pitch": 34.0,
+            "roll": 10.0
+          }
+        }
+      ]
+    }
+  ]
+}

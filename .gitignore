@@ -1,0 +1,25 @@
+# Pipeline outputs and external repositories
+out/
+third_parties/
+
+# Runs and caches written inside scene folders
+**/rl_runs/
+**/evals/
+**/wandb/
+**/ppo_tensorboard/
+**/goal_gen/*/cache/
+**/goal_gen/*/vlm_logs/
+**/keypoints/*_cache/
+
+# API keys saved by the app
+/.api_keys.json
+
+# Python and editors
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.vscode/
+.idea/

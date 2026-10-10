@@ -1,0 +1,724 @@
+{
+  "dist": -0.11164653271523065,
+  "yaw": 167.13308374461695,
+  "pitch": -5.3492803360836945,
+  "roll": 4.110071912037007,
+  "generation": 4,
+  "id": 35,
+  "score": 0.92,
+  "description": "The upright bottle has good clearance, and its nozzle points into the foliage from a plausible spraying distance.",
+  "table_penetration": 0.0,
+  "transform": [
+    [
+      -0.9699515288592371,
+      -0.17870931748038146,
+      0.16509743993855758,
+      -0.25733847239765384
+    ],
+    [
+      -0.21021252691695724,
+      0.27392223712440744,
+      -0.938497252278422,
+      0.021160984016799216
+    ],
+    [
+      0.12249435011423448,
+      -0.9450023264857762,
+      -0.3032581662145814,
+      0.7368327955813274
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_world": [
+    [
+      0.6861017393064283,
+      -0.7265045673367005,
+      -0.038149014696233,
+      0.7572574634803302
+    ],
+    [
+      0.717958148649623,
+      0.6846332198188527,
+      -0.12574761573278756,
+      0.23470245025511352
+    ],
+    [
+      0.11747403675737866,
+      0.05888573402694647,
+      0.9913282678938864,
+      0.11919800401862751
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fn_pt_mesh": [
+    -0.03701245950906829,
+    -0.0009469385962074378,
+    0.07095528006788901
+  ],
+  "target_world": [
+    0.6532433515447447,
+    0.11840075250535564,
+    0.1720186458150653
+  ],
+  "target_camera": [
+    -0.10126269377146571,
+    -0.014439756495854916,
+    0.698
+  ],
+  "relative_transform": [
+    [
+      -0.9706441796722319,
+      -0.21560046909186176,
+      0.10661291758407687,
+      -0.44280273560884587
+    ],
+    [
+      0.22171740268104084,
+      -0.9738706778020464,
+      0.04916600721795582,
+      -0.05698257375352844
+    ],
+    [
+      0.0932269800904935,
+      0.07136063792282113,
+      0.9930842811858692,
+      0.012089754894806681
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_obj_center": [
+    0.6744803333908856,
+    0.1303173097432189,
+    0.16291608255524964
+  ],
+  "views": 3,
+  "search_trace": [
+    {
+      "round": 1,
+      "incumbent_id": 1,
+      "random_count": 8,
+      "proposed_count": 0,
+      "candidates": [
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.88,
+          "description": "The nozzle points toward the plant from a useful spraying distance. The bottle has mostly clear space, with only slight measured table penetration.",
+          "table_penetration": 0.007389090345440441,
+          "params": {
+            "dist": -0.15006407608645966,
+            "yaw": -70.2507158225019,
+            "pitch": 3.95612807920827,
+            "roll": 18.418064573678834
+          }
+        },
+        {
+          "id": 2,
+          "generation": 0,
+          "score": 0.12,
+          "description": "The bottle is largely obscured by the foliage, suggesting substantial overlap. The target is behind the supplied outward spray axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.029011425052896944,
+            "yaw": 108.74781355907788,
+            "pitch": -53.27488767513677,
+            "roll": 9.757125417314668
+          }
+        },
+        {
+          "id": 3,
+          "generation": 0,
+          "score": 0.08,
+          "description": "The bottle overlaps the plant, while the nozzle points away from the effect point; the target is behind its outward axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.10461690761308035,
+            "yaw": -24.856730441200853,
+            "pitch": 11.718931167755116,
+            "roll": 14.18944713224628
+          }
+        },
+        {
+          "id": 4,
+          "generation": 0,
+          "score": 0.02,
+          "description": "The bottle overlaps the plant and penetrates the table substantially. Its spray direction points away from the target.",
+          "table_penetration": 0.03530067825273858,
+          "params": {
+            "dist": 0.16990062200525813,
+            "yaw": -57.92970153545862,
+            "pitch": -29.936714625869016,
+            "roll": -18.780044995418507
+          }
+        },
+        {
+          "id": 5,
+          "generation": 0,
+          "score": 0.49,
+          "description": "The nozzle is aligned with the effect point, but it is essentially touching the foliage, leaving little room for a spray to disperse.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.0015505559646475098,
+            "yaw": 27.447842120739892,
+            "pitch": -5.812968320185476,
+            "roll": -13.162062512544942
+          }
+        },
+        {
+          "id": 6,
+          "generation": 0,
+          "score": 0.43,
+          "description": "The nozzle points toward the target, but it is only a few centimeters away. The tilted bottle crowds the pot and slightly penetrates the table.",
+          "table_penetration": 0.01331696564656798,
+          "params": {
+            "dist": -0.023173968635449793,
+            "yaw": -35.07438794041758,
+            "pitch": 34.258719535314825,
+            "roll": -11.292384195775092
+          }
+        },
+        {
+          "id": 7,
+          "generation": 0,
+          "score": 0.02,
+          "description": "The bottle lies low against the table, and the target is well behind its outward spray axis.",
+          "table_penetration": 0.01912273026182275,
+          "params": {
+            "dist": 0.18485538812522068,
+            "yaw": -145.49584623796355,
+            "pitch": -85.68106392011984,
+            "roll": 19.701953247110588
+          }
+        },
+        {
+          "id": 8,
+          "generation": 0,
+          "score": 0.02,
+          "description": "The bottle lies low against the table, with slight penetration, and points away from the plant; the target is behind its outward axis.",
+          "table_penetration": 0.005063570535107982,
+          "params": {
+            "dist": 0.15821976393543802,
+            "yaw": -160.78255218976918,
+            "pitch": -74.13192057211829,
+            "roll": 0.2148789815222507
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "incumbent_id": 1,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 9,
+          "generation": 1,
+          "score": 0.12,
+          "description": "The bottle is close to the foliage, but the effect point lies behind the supplied outward spray direction. Its head also crowds the plant.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.020279946959641304,
+            "yaw": -8.040953248149577,
+            "pitch": -31.54856711871789,
+            "roll": 18.157671635641023
+          }
+        },
+        {
+          "id": 10,
+          "generation": 1,
+          "score": 0.03,
+          "description": "Most of the bottle is hidden below the table, consistent with substantial table penetration; it cannot plausibly spray from this pose.",
+          "table_penetration": 0.043996854998477275,
+          "params": {
+            "dist": -0.10685340199600124,
+            "yaw": 31.66071786350733,
+            "pitch": 75.35357578439948,
+            "roll": 7.022192832993582
+          }
+        },
+        {
+          "id": 11,
+          "generation": 1,
+          "score": 0.56,
+          "description": "The nozzle points toward the plant at a short spraying distance, but the bottle and head crowd or overlap the foliage.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.06651205281777739,
+            "yaw": 53.63475409675914,
+            "pitch": -1.8042934493595766,
+            "roll": 8.725537577310458
+          }
+        },
+        {
+          "id": 12,
+          "generation": 1,
+          "score": 0.0,
+          "description": "The bottle is not visible, and the substantial measured table penetration makes this pose unsuitable.",
+          "table_penetration": 0.08122282822477195,
+          "params": {
+            "dist": -0.16886187553950716,
+            "yaw": 109.6944616464366,
+            "pitch": 88.4335300976409,
+            "roll": 11.738192698903141
+          }
+        },
+        {
+          "id": 13,
+          "generation": 1,
+          "score": 0.79,
+          "description": "The nozzle is aimed at the plant from a useful distance with a mostly clear path. The bottle sits very low, with slight measured table penetration.",
+          "table_penetration": 0.010329677623251238,
+          "params": {
+            "dist": -0.18,
+            "yaw": -70.3,
+            "pitch": 4.0,
+            "roll": 18.4
+          }
+        },
+        {
+          "id": 14,
+          "generation": 1,
+          "score": 0.65,
+          "description": "The nozzle aims toward the foliage with clear separation, but the measured table penetration detracts from physical feasibility.",
+          "table_penetration": 0.02585131044639273,
+          "params": {
+            "dist": -0.17,
+            "yaw": -74.0,
+            "pitch": 8.0,
+            "roll": 12.0
+          }
+        },
+        {
+          "id": 15,
+          "generation": 1,
+          "score": 0.73,
+          "description": "The spray direction reaches the plant from a plausible distance, though the bottle sits low and penetrates the table somewhat.",
+          "table_penetration": 0.017157793476187413,
+          "params": {
+            "dist": -0.19,
+            "yaw": -65.0,
+            "pitch": 5.0,
+            "roll": 14.0
+          }
+        },
+        {
+          "id": 16,
+          "generation": 1,
+          "score": 0.56,
+          "description": "The nozzle is directed at the plant, but the measured table penetration is appreciable despite the otherwise useful spacing.",
+          "table_penetration": 0.03512280636958762,
+          "params": {
+            "dist": -0.16,
+            "yaw": -70.0,
+            "pitch": 11.0,
+            "roll": 8.0
+          }
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.88,
+          "description": "The nozzle points toward the foliage from a plausible spraying distance with good clearance. Measured table penetration is slight.",
+          "table_penetration": 0.007389090345440441,
+          "params": {
+            "dist": -0.15006407608645966,
+            "yaw": -70.2507158225019,
+            "pitch": 3.95612807920827,
+            "roll": 18.418064573678834
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "incumbent_id": 22,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 17,
+          "generation": 2,
+          "score": 0.88,
+          "description": "The nozzle points toward the plant from a useful distance, and the tilted bottle has clear table clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.1308105250637156,
+            "yaw": -55.95387229782675,
+            "pitch": -27.75455814720174,
+            "roll": -3.9917726214451505
+          }
+        },
+        {
+          "id": 18,
+          "generation": 2,
+          "score": 0.06,
+          "description": "Despite the axis pointing toward the target, much of the bottle penetrates the table, making the pose unusable.",
+          "table_penetration": 0.05275704144937325,
+          "params": {
+            "dist": -0.09910843025637206,
+            "yaw": 15.436149619265024,
+            "pitch": 60.86123185168239,
+            "roll": 19.269557368805273
+          }
+        },
+        {
+          "id": 19,
+          "generation": 2,
+          "score": 0.12,
+          "description": "The nozzle is aimed toward the plant, but substantial table penetration cuts off the bottle.",
+          "table_penetration": 0.04834423995780948,
+          "params": {
+            "dist": -0.11460206509960372,
+            "yaw": -169.27013467374397,
+            "pitch": 23.37594994186624,
+            "roll": -1.8428793970145492
+          }
+        },
+        {
+          "id": 20,
+          "generation": 2,
+          "score": 0.55,
+          "description": "The nozzle is aimed at the plant, but it is almost touching the foliage, leaving little room for a spray and risking overlap.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.018386764126837762,
+            "yaw": -143.7958723188388,
+            "pitch": 3.5451698542228485,
+            "roll": 8.152168186251387
+          }
+        },
+        {
+          "id": 21,
+          "generation": 2,
+          "score": 0.82,
+          "description": "The nozzle has a useful spraying distance and points at the plant. The tilted bottle has slight measured table penetration.",
+          "table_penetration": 0.006136525306101509,
+          "params": {
+            "dist": -0.135,
+            "yaw": -70.3,
+            "pitch": 4.0,
+            "roll": 18.4
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.92,
+          "description": "The upright bottle has good clearance, and its nozzle points at the plant from a plausible spraying distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": -70.3,
+            "pitch": 0.0,
+            "roll": 18.4
+          }
+        },
+        {
+          "id": 23,
+          "generation": 2,
+          "score": 0.86,
+          "description": "The nozzle is well aimed from a useful distance, though the bottle has slight measured table penetration.",
+          "table_penetration": 0.004891392561263114,
+          "params": {
+            "dist": -0.15,
+            "yaw": -70.3,
+            "pitch": 4.0,
+            "roll": 23.0
+          }
+        },
+        {
+          "id": 24,
+          "generation": 2,
+          "score": 0.92,
+          "description": "The bottle is upright and clear of the table, with the nozzle aimed at the plant from a useful distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14,
+            "yaw": -68.0,
+            "pitch": 1.0,
+            "roll": 21.0
+          }
+        },
+        {
+          "id": 1,
+          "generation": 0,
+          "score": 0.83,
+          "description": "The nozzle points at the plant from a suitable distance, but there is slight measured table penetration.",
+          "table_penetration": 0.007389090345440441,
+          "params": {
+            "dist": -0.15006407608645966,
+            "yaw": -70.2507158225019,
+            "pitch": 3.95612807920827,
+            "roll": 18.418064573678834
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "incumbent_id": 26,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 25,
+          "generation": 3,
+          "score": 0.01,
+          "description": "The bottle is largely hidden beneath the table, consistent with substantial measured penetration. Although the axis points toward the plant, this placement cannot spray it.",
+          "table_penetration": 0.11886256682104678,
+          "params": {
+            "dist": -0.18002506258908713,
+            "yaw": 145.18837971356783,
+            "pitch": 74.47846469712746,
+            "roll": 13.277563890345448
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.94,
+          "description": "The nozzle has clear space beside the plant and points toward the foliage from a plausible spraying distance. The bottle remains clear of the table.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15393643365491816,
+            "yaw": -179.7503220913463,
+            "pitch": -27.852460109979845,
+            "roll": 4.315467623140034
+          }
+        },
+        {
+          "id": 27,
+          "generation": 3,
+          "score": 0.04,
+          "description": "The bottle lies beside the pot, and its outward spray axis points away from the effect point; the target is behind the nozzle.",
+          "table_penetration": 0.006247891115120224,
+          "params": {
+            "dist": 0.171561757516297,
+            "yaw": -51.46495452218369,
+            "pitch": -86.24174253547734,
+            "roll": -14.15766932922736
+          }
+        },
+        {
+          "id": 28,
+          "generation": 3,
+          "score": 0.05,
+          "description": "The bottle is crowded against the pot, and its outward spray axis points away from the plant. The target is behind the nozzle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.09658226566808853,
+            "yaw": -115.74084115655194,
+            "pitch": -73.93923374216565,
+            "roll": 7.69128465970018
+          }
+        },
+        {
+          "id": 29,
+          "generation": 3,
+          "score": 0.88,
+          "description": "The upright bottle is clear of the table, with its nozzle aimed toward the plant from a plausible distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.145,
+            "yaw": -69.0,
+            "pitch": 0.0,
+            "roll": 19.0
+          }
+        },
+        {
+          "id": 30,
+          "generation": 3,
+          "score": 0.9,
+          "description": "The nozzle points toward the foliage along the supplied axis, with plausible spacing and no measured table penetration.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.155,
+            "yaw": -70.3,
+            "pitch": 0.0,
+            "roll": 18.4
+          }
+        },
+        {
+          "id": 31,
+          "generation": 3,
+          "score": 0.88,
+          "description": "The nozzle is aimed at the plant from a suitable distance, and the held bottle appears to have table clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.14,
+            "yaw": -66.0,
+            "pitch": -1.0,
+            "roll": 19.0
+          }
+        },
+        {
+          "id": 32,
+          "generation": 3,
+          "score": 0.9,
+          "description": "The bottle is positioned beside the plant with its nozzle directed at the effect point and plausible clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": -72.0,
+            "pitch": 0.0,
+            "roll": 16.0
+          }
+        },
+        {
+          "id": 22,
+          "generation": 2,
+          "score": 0.89,
+          "description": "The nozzle points toward the foliage from a workable spraying distance, while the bottle remains clear of the table.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": -70.3,
+            "pitch": 0.0,
+            "roll": 18.4
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "incumbent_id": 35,
+      "random_count": 4,
+      "proposed_count": 4,
+      "candidates": [
+        {
+          "id": 33,
+          "generation": 4,
+          "score": 0.12,
+          "description": "The nozzle is pressed into the foliage, and the target lies behind the supplied spray axis.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": 0.01697824756946828,
+            "yaw": -124.18856684080188,
+            "pitch": -48.454210128274006,
+            "roll": -3.35229997092506
+          }
+        },
+        {
+          "id": 34,
+          "generation": 4,
+          "score": 0.05,
+          "description": "The bottle penetrates the table substantially; its low placement is unsuitable for spraying the plant.",
+          "table_penetration": 0.04255330577868424,
+          "params": {
+            "dist": -0.07871487734544275,
+            "yaw": -111.06545478625765,
+            "pitch": 30.268439305507286,
+            "roll": 11.347188894379379
+          }
+        },
+        {
+          "id": 35,
+          "generation": 4,
+          "score": 0.92,
+          "description": "The upright bottle has good clearance, and its nozzle points into the foliage from a plausible spraying distance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.11164653271523065,
+            "yaw": 167.13308374461695,
+            "pitch": -5.3492803360836945,
+            "roll": 4.110071912037007
+          }
+        },
+        {
+          "id": 36,
+          "generation": 4,
+          "score": 0.38,
+          "description": "The axis points toward the plant, but the nozzle is so close to the foliage that clearance is doubtful.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.025995541250759313,
+            "yaw": -78.74122321003009,
+            "pitch": -37.19726967277559,
+            "roll": 13.74831182410945
+          }
+        },
+        {
+          "id": 37,
+          "generation": 4,
+          "score": 0.88,
+          "description": "The nozzle aims into the plant from a useful distance, with good clearance around the bottle.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.154,
+            "yaw": -178.0,
+            "pitch": -25.0,
+            "roll": 4.0
+          }
+        },
+        {
+          "id": 38,
+          "generation": 4,
+          "score": 0.85,
+          "description": "The spray is aligned with the plant and has ample clearance, though the bottle is somewhat strongly tilted.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.165,
+            "yaw": -179.0,
+            "pitch": -28.0,
+            "roll": 5.0
+          }
+        },
+        {
+          "id": 39,
+          "generation": 4,
+          "score": 0.89,
+          "description": "The nozzle aims into the foliage from a plausible distance without visible obstruction.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15,
+            "yaw": 177.0,
+            "pitch": -31.0,
+            "roll": 3.0
+          }
+        },
+        {
+          "id": 40,
+          "generation": 4,
+          "score": 0.72,
+          "description": "The axis reaches the plant and the bottle clears the table, but the nozzle is relatively low beside the pot.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.16,
+            "yaw": -71.0,
+            "pitch": 0.0,
+            "roll": 17.0
+          }
+        },
+        {
+          "id": 26,
+          "generation": 3,
+          "score": 0.88,
+          "description": "The nozzle points into the plant from a sensible distance, with adequate bottle clearance.",
+          "table_penetration": 0.0,
+          "params": {
+            "dist": -0.15393643365491816,
+            "yaw": -179.7503220913463,
+            "pitch": -27.852460109979845,
+            "roll": 4.315467623140034
+          }
+        }
+      ]
+    }
+  ]
+}
